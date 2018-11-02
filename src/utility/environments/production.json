@@ -1,0 +1,7 @@
+{
+    "name": "PRODUCTION",
+    "port": 3030,
+
+    "authentication": {
+    }
+}

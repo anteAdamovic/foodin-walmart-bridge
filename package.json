@@ -1,0 +1,22 @@
+{
+  "name": "foodin-wallmart-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon ./src/index.js env=DEVELOPMENT",
+    "start-development": "nodemon ./src/index.js env=DEVELOPMENT",
+    "start-staging": "nodemon ./src/index.js env=STAGING",
+    "start-production": "nodemon ./src/index.js env=PRODUCTION",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

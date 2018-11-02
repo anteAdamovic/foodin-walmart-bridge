@@ -1,0 +1,9 @@
+{
+    "name": "STAGING",
+    "port": 8080,
+
+    "authentication": {
+        "token": "europe-west3:foodin-staging",
+        "apiKey": "6hjdym7sbc5qhgzu288v6eaa"
+    }
+}
